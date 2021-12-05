@@ -1,0 +1,32 @@
+{
+  "isProduction": true,
+  "reactUrl": "https://your_domain",
+  "port": 5000,
+  "postgresUri": "",
+  "baseUrl": "https://your_domain",
+  "jwtSecret": "your_secret",
+  "salt": "our_salt_number",
+  "admin": {
+    "firstName": "admin_name",
+    "lastName": "admin_surname",
+    "email": "admin_mail@mail.ru",
+    "password": "admin_password"
+  },
+  "oauth": {
+    "googleAuth": {
+      "clientID": "your_google_application_ID",
+      "clientSecret": "your_vkontakte_application_secret",
+      "callbackURL": "https://your_domain/auth/google/callback"
+    },
+    "vkontakteAuth": {
+      "clientID": "your_vkontakte_application_ID",
+      "clientSecret": "your_vkontakte_application_secret",
+      "callbackURL": "https://your_domain/auth/vkontakte/callback"
+    },
+    "facebookAuth": {
+      "clientID": "your_facebook_application_ID",
+      "clientSecret": "your_facebook_application_secret",
+      "callbackURL": "https://your_domain/auth/facebook/callback"
+    }
+  }
+}
